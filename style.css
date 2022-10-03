@@ -1,0 +1,236 @@
+html,
+body {
+  background-color: rgb(29, 29, 29);
+  margin: 0;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header .logo img {
+  width: auto;
+  height: 50px;
+}
+
+.header .lang a {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.header .lang a:hover,
+.menu li a:hover{
+  color: rgb(107, 107, 107);
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: auto 10px;
+  list-style-type: none;
+}
+
+.menu li a {
+  font-family: Arial, sans-serif;
+  color: #f2f2ff;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-ctn {
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 2px black;
+  height: 500px;
+  color: #ffffff;
+  text-align:center;
+  background: url('./assets/wifi-moon.webp');
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 40px 40px 40px 40px;
+}
+
+.form{
+  font-family: Arial, sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  margin:50px 140px 100px 140px;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+}
+.form__input{
+  font-family: Arial, sans-serif;
+  color:#ffffff;
+  border-radius: 10px;
+  border-color: #9e9e9e;
+  background-color: transparent;
+  transition: 0.3s;
+  padding: 10px;
+}
+.form__group{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.form__label{
+  display: block;
+  color:#9e9e9e;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.form__button{
+  font-family: Arial,sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top:18px;
+  padding: 10px;
+  background-color:  #6456ff;
+  border-radius: 10px;
+  border-color: #6456ff;
+  width: 150px;
+  margin-left: 15px;
+}
+.about-moon {
+  margin: auto 90px;
+  display: flex;
+}
+
+.info-ctn {
+  padding: 0 20px;
+}
+.info-ctn .landing-site{
+  font-family: Arial, sans-serif;
+  font-size:large;
+  color: darkgrey;
+}
+
+.info-ctn .station-apolo{
+  font-family: Arial, sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  color: #f2f2ff;
+}
+.info-ctn .info {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: #f2f2ff;
+}
+
+.info-ctn .info{
+  font-family: Arial, sans-serif;
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+}
+.info-ctn .info .buy{
+  font-family: Arial, sans-serif;
+  background: none;
+  color: #f2f2ff;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 1px solid #f2f2ff;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+.apolo-ctn .apollon-17{
+  width:350px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.apolo-ctnn .Moon{
+  margin-left: 230px;
+  margin-top: 80px;
+  width: 95%;
+}
+.info-ctn .info .buy:hover{
+  background-color: #6456ff;
+}
+
+
+.fqa {
+  font-family: Arial, sans-serif;
+  margin: 100px 90px;
+}
+
+.fqa h2 { 
+  color: #f2f2ff;
+  font-size: 50px;
+}
+
+.fqa .answers-ctn span{
+  padding: 10px 30px;
+  border: 1px solid #f2f2ff;
+  color: #f2f2ff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.fqa .answers-ctn span:hover{
+  background-color: #6456ff;
+  border: 1px solid #6456ff;;
+}
+
+.cards{
+  font-family: Arial, sans-serif;
+  margin: auto 30px 100px;
+  display: flex;
+}
+
+.cards .card{
+  padding: 15px 10px; 
+  background-color: #2d2d2d;
+  width: 33%;
+  border-radius: 18px;
+  color: #f2f2ff;
+  margin: auto 10px;
+}
+
+.cards .card img{
+  width: 100%;
+}
+
+.cards .card button{
+  background: none;
+  border: 1px solid #f2f2ff;
+  padding: 15px 60px;
+  border-radius: 8px;
+  color: #f2f2ff;
+  cursor: pointer;
+}
+
+.cards .card:hover{
+  background-color: #6456ff;
+  position: relative;
+  top: -20px;
+}
+
+.cards .card:hover > button{
+  background-color: #f2f2ff;
+  color: #6456ff;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2ff;
+  padding: 30px 0;
+  border-top: 1px solid #f2f2ff;
+  margin: auto 30px;
+}
